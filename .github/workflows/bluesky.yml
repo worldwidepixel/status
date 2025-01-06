@@ -1,0 +1,16 @@
+name: Send Bluesky Post
+
+on:
+  issues:
+    types: [opened, edited, milestoned]
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    if: github.event.issue.actor == 'upptime-bot' || github.event.issue.actor == 'worldwidepixel'
+    steps:
+      - uses: myConsciousness/bluesky-post@v5
+        with:
+          text: "Hello, Bluesky!"
+          identifier: ${{ secrets.BLUESKY_IDENTIFIER }}
+          password: ${{ secrets.BLUESKY_PASSWORD }}
