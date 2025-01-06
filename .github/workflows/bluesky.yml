@@ -7,7 +7,7 @@ on:
 jobs:
   post_downtime:
     runs-on: ubuntu-latest
-    if: (github.event.issue.user.login == 'upptime-bot' || github.event.issue.user.login == 'worldwidepixel' || github.event.issue.user.login == 'github-actions[bot]') && contains(github.event.issue.title, "🛑")
+    if: (github.event.issue.user.login == 'upptime-bot' || github.event.issue.user.login == 'worldwidepixel' || github.event.issue.user.login == 'github-actions[bot]') && contains(github.event.issue.title, '🛑')
     steps:
       - uses: myConsciousness/bluesky-post@v5
         with:
