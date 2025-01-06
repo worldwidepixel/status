@@ -2,15 +2,24 @@ name: Send Bluesky Post
 
 on:
   issues:
-    types: [opened, edited, milestoned]
+    types: [opened]
 
 jobs:
   post_downtime:
     runs-on: ubuntu-latest
-    if: (github.event.issue.user.login == 'upptime-bot' || github.event.issue.user.login == 'worldwidepixel' || github.event.issue.user.login == 'github-actions[bot]') && contains(github.event.issue.title, '🛑')
+    if: (github.event.issue.user.login == 'upptime-bot' || github.event.issue.user.login == 'worldwidepixel' || github.event.issue.user.login == 'github-actions[bot]') && contains(github.event.issue.title, '🛑') && github.event.issue.action == 'opened'
     steps:
       - uses: myConsciousness/bluesky-post@v5
         with:
           text: "${{ github.event.issue.title }}\n\n See status updates at https://status.worldwidepixel.ca/"
+          identifier: ${{ secrets.BLUESKY_IDENTIFIER }}
+          password: ${{ secrets.BLUESKY_PASSWORD }}
+  post_resolved:
+    runs-on: ubuntu-latest
+    if: (github.event.issue.user.login == 'upptime-bot' || github.event.issue.user.login == 'worldwidepixel' || github.event.issue.user.login == 'github-actions[bot]') && contains(github.event.issue.title, '🛑') && github.event.issue.action == 'closed'
+    steps:
+      - uses: myConsciousness/bluesky-post@v5
+        with:
+          text: "Downtime resolved: ${{ github.event.issue.title }}\n\n See status updates at https://status.worldwidepixel.ca/"
           identifier: ${{ secrets.BLUESKY_IDENTIFIER }}
           password: ${{ secrets.BLUESKY_PASSWORD }}
