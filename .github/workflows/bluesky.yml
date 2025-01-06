@@ -2,7 +2,7 @@ name: Send Bluesky Post
 
 on:
   issues:
-    types: [opened]
+    types: [opened, closed]
 
 jobs:
   post_downtime:
