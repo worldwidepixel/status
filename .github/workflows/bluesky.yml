@@ -20,6 +20,6 @@ jobs:
     steps:
       - uses: myConsciousness/bluesky-post@v5
         with:
-          text: "Downtime resolved: ${{ github.event.issue.title }}\n\nSee status updates at https://status.worldwidepixel.ca/"
+          text: "🟢 Downtime resolved: ${{ github.event.issue.title }}\n\nSee status updates at https://status.worldwidepixel.ca/"
           identifier: ${{ secrets.BLUESKY_IDENTIFIER }}
           password: ${{ secrets.BLUESKY_PASSWORD }}
