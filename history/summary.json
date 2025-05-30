@@ -4,18 +4,20 @@
     "url": "https://worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/website.png",
     "slug": "main-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 205,
-    "timeDay": 149,
-    "timeWeek": 170,
-    "timeMonth": 291,
-    "timeYear": 205,
-    "dailyMinutesDown": {}
+    "time": 204,
+    "timeDay": 139,
+    "timeWeek": 165,
+    "timeMonth": 285,
+    "timeYear": 204,
+    "dailyMinutesDown": {
+      "2025-05-30": 0
+    }
   },
   {
     "name": "Badger Legacy",
