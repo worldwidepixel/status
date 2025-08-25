@@ -24,10 +24,10 @@
     "url": "https://badger.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png",
     "slug": "badger-legacy",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 118,
@@ -35,7 +35,9 @@
     "timeWeek": 119,
     "timeMonth": 124,
     "timeYear": 118,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 1
+    }
   },
   {
     "name": "Badger Staging",
@@ -60,10 +62,10 @@
     "url": "https://badger-api-staging.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png",
     "slug": "badger-staging-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 431,
@@ -71,17 +73,19 @@
     "timeWeek": 391,
     "timeMonth": 363,
     "timeYear": 431,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 1
+    }
   },
   {
     "name": "StatsView",
     "url": "https://stats.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/statsview.png",
     "slug": "stats-view",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 113,
@@ -89,16 +93,18 @@
     "timeWeek": 112,
     "timeMonth": 114,
     "timeYear": 113,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 1
+    }
   },
   {
     "name": "Modwrapped",
     "url": "https://badger.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/modwrapped.png",
     "slug": "modwrapped",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -107,6 +113,8 @@
     "timeWeek": 75,
     "timeMonth": 70,
     "timeYear": 36,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 0
+    }
   }
 ]
