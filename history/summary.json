@@ -24,19 +24,19 @@
     "url": "https://badger.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png",
     "slug": "badger-legacy",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.90%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 118,
-    "timeDay": 122,
-    "timeWeek": 115,
-    "timeMonth": 123,
+    "timeDay": 130,
+    "timeWeek": 119,
+    "timeMonth": 124,
     "timeYear": 118,
     "dailyMinutesDown": {
-      "2025-08-25": 0
+      "2025-08-25": 16
     }
   },
   {
@@ -62,19 +62,19 @@
     "url": "https://badger-api-staging.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png",
     "slug": "badger-staging-api",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.90%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
-    "time": 433,
-    "timeDay": 537,
-    "timeWeek": 441,
-    "timeMonth": 375,
-    "timeYear": 433,
+    "time": 432,
+    "timeDay": 438,
+    "timeWeek": 419,
+    "timeMonth": 371,
+    "timeYear": 432,
     "dailyMinutesDown": {
-      "2025-08-25": 0
+      "2025-08-25": 16
     }
   },
   {
@@ -82,19 +82,19 @@
     "url": "https://stats.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/statsview.png",
     "slug": "stats-view",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.90%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 113,
-    "timeDay": 179,
-    "timeWeek": 106,
-    "timeMonth": 112,
+    "timeDay": 158,
+    "timeWeek": 107,
+    "timeMonth": 113,
     "timeYear": 113,
     "dailyMinutesDown": {
-      "2025-08-25": 0
+      "2025-08-25": 16
     }
   },
   {
@@ -102,19 +102,19 @@
     "url": "https://badger.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/modwrapped.png",
     "slug": "modwrapped",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.90%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 36,
-    "timeDay": 79,
-    "timeWeek": 71,
-    "timeMonth": 69,
+    "timeDay": 80,
+    "timeWeek": 73,
+    "timeMonth": 70,
     "timeYear": 36,
     "dailyMinutesDown": {
-      "2025-08-25": 0
+      "2025-08-25": 16
     }
   }
 ]
