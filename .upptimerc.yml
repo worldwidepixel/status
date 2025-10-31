@@ -6,14 +6,20 @@ sites:
   - name: Main Website
     url: https://worldwidepixel.ca
     icon: https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/website.png
-  - name: Badger Legacy
+  - name: Badger Legacy (v1)
     url: https://badger.worldwidepixel.ca
     icon: https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png
-  - name: Badger Staging
-    url: https://badger-staging.worldwidepixel.ca
+  - name: Badger v2 (staging)
+    url: https://v2.badger.worldwidepixel.ca
     icon: https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png
-  - name: Badger Staging API
+  - name: Badger v2 API (staging)
     url: https://badger-api-staging.worldwidepixel.ca
+    icon: https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png
+  - name: Badger v3 (staging)
+    url: https://v3.badger.worldwidepixel.ca
+    icon: https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png
+  - name: Badger v3 API (staging)
+    url: https://api.v3.badger.worldwidepixel.ca
     icon: https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png
   - name: StatsView
     url: https://stats.worldwidepixel.ca
