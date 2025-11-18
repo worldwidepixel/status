@@ -1,7 +1,7 @@
 url: https://v2.badger.worldwidepixel.ca
-status: up
-code: 200
-responseTime: 159
-lastUpdated: 2025-11-18T14:40:04.537Z
+status: down
+code: 500
+responseTime: 68
+lastUpdated: 2025-11-18T15:56:31.130Z
 startTime: 2025-10-31T07:27:59.195Z
 generator: Upptime <https://github.com/upptime/upptime>
