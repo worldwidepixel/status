@@ -1,7 +1,7 @@
 url: https://api.v3.badger.worldwidepixel.ca
-status: up
-code: 200
-responseTime: 149
-lastUpdated: 2025-11-18T14:50:58.325Z
+status: down
+code: 500
+responseTime: 29499
+lastUpdated: 2025-11-18T14:57:24.257Z
 startTime: 2025-10-31T07:28:01.914Z
 generator: Upptime <https://github.com/upptime/upptime>
