@@ -89,9 +89,9 @@
     "url": "https://v3.badger.worldwidepixel.ca",
     "icon": "https://raw.githubusercontent.com/worldwidepixel/status/refs/heads/master/assets/badger.png",
     "slug": "badger-v3-staging",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.93%",
@@ -101,6 +101,7 @@
     "timeMonth": 264,
     "timeYear": 283,
     "dailyMinutesDown": {
+      "2026-04-20": 0,
       "2025-11-18": 161
     }
   },
